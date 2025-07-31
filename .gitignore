@@ -2,3 +2,16 @@
 logs/
 client/.yarn/cache/*.zip
 server/node-service/.yarn/cache/*.zip
+
+# MongoDB data files
+deploy/docker/openblocks-stacks/data/mongodb/
+*.wt
+
+# Redis data files
+deploy/docker/openblocks-stacks/data/redis/
+
+# Vite build artifacts
+**/vite.config.mts.timestamp-*.mjs
+
+# Maven artifacts
+server/api-service/maven.zip
